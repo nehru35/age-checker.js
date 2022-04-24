@@ -1,13 +1,12 @@
-# Verificador de idade App
+# Age Checker
+
+This repository is the resolution of a challenge that was passed to me during my JavaScript Fundamentals course.
 
 
-Esse repositório é a resolução de um desafio que me foi passado durante o meu curso de JavaScript Fundamentos.
+The challenge is:
+- [x] Create a web page that reads the user's year of birth and gender
+- [x] Create a script that gets the current year on the user's computer, print the current age on the screen.
 
-
-O desafio:
-- [ ] Criar uma pagina web que leia o ano de nascimento e o sexo do usuário
-- [ ] Criar um script que pega o corrente ano no computador do usuário, imprimir a idade atual na tela.
-
-Lembrete: 
-- [ ] Retorne uma mensagem de erro caso o usuário não digite a idade
-- [ ] Retorne uma mensagem de erro caso o ano de nascimento seje maior que o ano actual
+Reminder:
+- [x] Return an error message if user does not enter age
+- [x] Return an error message if the birth year is greater than the current year
