@@ -17,32 +17,32 @@ function verificar() {
             $genero = 'homem';
             $msg.innerText = `Detectamos ${$genero} com ${$idade} anos!`;
             if ($idade >=0 && $idade <= 12) {
-                $img.src = "../img/bebe-homem.png";
+                $img.src = "../img/kid-man.jpg";
             } else if ($idade <= 35) {
                 //jovem
-                $img.src = "../img/jovem-homem.png";
+                $img.src = "../img/teeanager-man.jpg";
             } else if ($idade <= 55) {
                 //Adulto
-                $img.src = "../img/adulto-homem.png";
+                $img.src = "../img/sr-man.jpg";
             } else {
                 //idoso
-                $img.src = "../img/idoso-homem.png";
+                $img.src = "../img/old-man.jpg";
             }
         } else if ($sexo[1].checked) {
             $genero = 'mulher';
             $msg.innerText = `Detectamos ${$genero} com ${$idade} anos!`
             if ($idade >=0 && $idade <= 12) {
                 //criança
-                $img.src = "../img/bebe-mulher.png";
+                $img.src = "../img/kid-women.png";
             } else if ($idade <= 35) {
                 //jovem
-                $img.src = "../img/jovem-mulher.png";
+                $img.src = "../img/teeanager-women.jpg";
             } else if ($idade <= 55) {
                 //Adulto
-                $img.src = "../img/adulto-mulher.png";
+                $img.src = "../img/sra-women.jpg";
             } else {
                 //idoso
-                $img.src = "../img/idoso-mulher.png";
+                $img.src = "../img/old-women";
             }
         }
 
