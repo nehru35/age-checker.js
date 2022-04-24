@@ -33,7 +33,7 @@ function verificar() {
             $msg.innerText = `Detectamos ${$genero} com ${$idade} anos!`
             if ($idade >=0 && $idade <= 12) {
                 //criança
-                $img.src = "../img/kid-women.png";
+                $img.src = "../img/kid-women.jpg";
             } else if ($idade <= 35) {
                 //jovem
                 $img.src = "../img/teenager-women.jpg";
@@ -42,7 +42,7 @@ function verificar() {
                 $img.src = "../img/sra-women.jpg";
             } else {
                 //idoso
-                $img.src = "../img/old-women";
+                $img.src = "../img/old-women.jpg";
             }
         }
 
